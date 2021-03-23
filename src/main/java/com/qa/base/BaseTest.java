@@ -13,6 +13,8 @@ public class BaseTest {
 	public static FileInputStream fs;
 	public static Properties prop;
 	public static WebDriver driver;
+	
+	//dfgthyjuki
 
 	public BaseTest() throws IOException {
 		prop = new Properties();
