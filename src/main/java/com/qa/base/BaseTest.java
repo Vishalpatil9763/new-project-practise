@@ -35,13 +35,13 @@ public class BaseTest {
 	public static void setUp() {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\TOSHIBA\\eclipse-workspace\\new\\src\\main\\java\\com\\qa\\driver\\chromedriver.exe");
+				"C:\\Users\\TOSHIBA\\eclipse-workspace\\new\\src\\main\\java\\com\\qa\\driver\\chromedriver86.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-		driver.get("");
+		driver.get(prop.getProperty("url"));
 
 	}
 }
