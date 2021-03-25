@@ -13,21 +13,21 @@ public class RegisterPage extends BaseTest {
 
 	@FindBy(xpath = "//button[@type='button']")
 	WebElement helpButton;
-	
-	@FindBy(xpath =" //img[@alt='Login']")
+
+	@FindBy(xpath = " //img[@alt='Login']")
 	WebElement loginButton;
-	
 
 	public RegisterPage() throws IOException {
 		PageFactory.initElements(driver, this);
 
 	}
-	
+
 	public String validateLoginButton() {
-		String text=loginButton.getText();
+
+		helpButton.click();
+		String text = loginButton.getText();
 		return text;
-		
-		
+
 	}
 
 }

@@ -1,6 +1,8 @@
 package com.qa.base;
 
 import java.io.FileInputStream;
+
+//asdgtjukildfhyjik
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -32,6 +34,7 @@ public class BaseTest {
 
 	}
 
+
 	public static void setUp() {
 
 		System.setProperty("webdriver.chrome.driver",
@@ -45,3 +48,6 @@ public class BaseTest {
 
 	}
 }
+
+
+//sertyuopfghyjio
