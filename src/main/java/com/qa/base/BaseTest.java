@@ -47,6 +47,13 @@ public class BaseTest {
 		driver.get(prop.getProperty("url"));
 
 	}
+
+public static void demoMethod() {
+
+		//This method is just a demo method.
+
+	}
+}
 }
 
 
